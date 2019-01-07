@@ -5,7 +5,8 @@
 ## Why
 
 I've prepared this docker image in order to build a continuous integration for an Ionic project.
-With this image, every time i add a feature that has to be tested, i can automate the build of the apk.
+Thanks to this image, every time i add a feature that has to be tested, i've automated the build of the apk and the delivery to internal testers.
+
 
 ## Usage
 
