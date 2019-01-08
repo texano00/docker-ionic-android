@@ -41,5 +41,7 @@ RUN (while sleep 3; do echo "y"; done) | $ANDROID_HOME/tools/bin/sdkmanager --li
     && rm -rf /tmp/sdk-tools-linux-${ANDROID_SDK_VERSION}.zip \ 
     && mkdir /ionicapp
 
+RUN curl -sL https://sentry.io/get-cli/ | bash
+
 WORKDIR /ionicapp
 

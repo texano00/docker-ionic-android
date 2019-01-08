@@ -9,7 +9,6 @@
 I've prepared this docker image in order to build a continuous integration for an Ionic project.
 Thanks to this image, every time i add a feature that has to be tested, i've automated the build of the apk and the delivery to internal testers.
 
-
 ## Usage
 
 ```bash
@@ -32,3 +31,4 @@ The docker image is based on ubuntu:bionic and include:
 - Android sdk
   - platform-tools
   - build-tools
+- Sentry cli
