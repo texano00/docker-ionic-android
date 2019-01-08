@@ -2,6 +2,8 @@
 
 [![Docker Build Status](https://img.shields.io/docker/build/texano00/ionic-android.svg)](https://hub.docker.com/r/texano00/ionic-android/)
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/texano00/ionic-android.svg)](https://hub.docker.com/r/texano00/ionic-android/)
+
 ## Why
 
 I've prepared this docker image in order to build a continuous integration for an Ionic project.
