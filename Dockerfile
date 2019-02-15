@@ -43,5 +43,7 @@ RUN (while sleep 3; do echo "y"; done) | $ANDROID_HOME/tools/bin/sdkmanager --li
 
 RUN curl -sL https://sentry.io/get-cli/ | bash
 
+RUN npm install xml2json util
+
 WORKDIR /ionicapp
 
